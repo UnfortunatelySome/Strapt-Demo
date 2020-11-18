@@ -1,0 +1,96 @@
+/* CSS Document */
+.tool-displays {
+    width: 100%;
+    height: 600;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10%;
+    padding-right: 5%;
+    padding-left: 5%;
+	text-align: center;
+	margin-left: auto;
+	marin-right: auto;
+}
+
+.tool-symbol{
+    width: 55%;
+    height: 100px;
+    background-image: url(resources/tool.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+	margin-bottom: 20px;
+}
+
+.submitted-title{
+    margin-bottom:20px;
+    margin-top:20px;
+    font-size:18px;
+    font-family: "San Francisco", sans-serif;
+    font-weight: bold;
+    color: #532EBF;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.submitted-subtitle{
+    margin-bottom:40px;
+    margin-top:5px;
+    font-size:15px;
+    font-family: "San Francisco", sans-serif;
+    color: #979797;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.home-btn{
+    margin-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 70px;
+    border-color: #532EBF;
+    color: #532EBF;
+    letter-spacing: 1px;
+    background-color:#FFFFFF;
+    background-position: center;
+    transition-duration: 300ms;
+    border: 0.1 solid #532EBF;
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+	text-transform:uppercase;
+
+}
+
+.home-btn:hover{
+    margin-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 70px;
+    border-color: #532EBF;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    background-color: #532EBF;
+    transition-duration: 300ms;
+    border: 0.1 solid #532EBF;
+    cursor: pointer;
+	font-size: 14px;
+    width: 100px;
+	text-transform:uppercase;
+
+}

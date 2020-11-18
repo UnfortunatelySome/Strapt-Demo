@@ -1,0 +1,230 @@
+input{
+	overflow: auto;
+	overflow-wrap: break-word;
+}
+div > a {
+    text-decoration: none;
+    color: black;
+}
+
+.strapt-header{
+    height: 70px;
+    width: 100%;
+    background-color: #FFFFFF;
+    display: inline-flex;
+    border-bottom-width:0.3px;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+}
+
+.logo {
+    margin-top: 10px;
+    width:100px;
+    height:50px;
+    background-image: url(resources/logo.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 20px;
+    vertical-align: top;
+    margin-left: auto;
+	margin-right: auto;
+
+}
+
+#card{
+    background-color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    height: 90%;
+    display: inline-flex;
+    border-radius: 35px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.card-list{
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    margin-bottom: 3.5%;
+
+}
+
+.nav-margin{
+    height: 200;
+    width: 100%;
+    background-color: #F8F8F8;
+    display: inline-flex;
+    padding-right: 3%;
+    padding-left: 3%;
+}
+
+
+.menu-list-item{
+    padding: 0.5%;
+    display: inline-block;
+    font-family: "San Francisco", sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    color: #979797;
+    margin-right: 2%;
+    margin-left:  2%;
+    font-weight: 600;
+    transition-duration: 200ms;
+    background-color: none;
+}
+
+.menu-list-item:hover {
+    color: #A98CFF;
+    text-decoration: none;
+}
+
+.selected-menu{
+    padding: 0.5%;
+    display: inline-block;
+    font-family: "San Francisco", sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    color: #A98CFF;
+    margin-right: 2%;
+    margin-left:  2%;
+    font-weight: 600;
+    transition-duration: 200ms;
+    background-color: none;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#product-card{
+    background-color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 95%;
+    height: 100%;
+    border-radius: 35px;
+    margin-top: 3%;
+    margin-bottom: 10%;
+}
+
+
+.product-one-displays {
+    width: 100%;
+    height: 600;
+    background-color:#F8F8F8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10%;
+    padding-right: 5%;
+    padding-left: 5%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.product-one-image{
+    width: 80%;
+    height: 250px;
+    background-image: url(resources/product1.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.brand-title{
+    margin-bottom:5px;
+    margin: 10px;
+    font-size: 30px;
+    font-family: "San Francisco", sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #532EBF;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.product-one-title{
+    margin-bottom:8px;
+    margin-top:20px;
+    font-size:18px;
+    font-family: "San Francisco", sans-serif;
+    font-weight: bold;
+    color: #532EBF;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
+
+
+#wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+
+
+
+.product-one-btn{
+    margin-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    border-radius: 20px;
+    border-color: #532EBF;
+    color: #532EBF;
+    letter-spacing: 1px;
+    background-color:#FFFFFF;
+    background-position: center;
+    transition-duration: 300ms;
+    border: 0.1 solid #532EBF;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+
+}
+
+.product-one-btn:hover{
+    margin-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    border-radius: 20px;
+    border-color: #532EBF;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    background-color: #532EBF;
+    transition-duration: 300ms;
+    border: 0.1 solid #532EBF;
+    cursor: pointer;
+	font-size: 14px;
+    text-transform: uppercase;
+    width: 150px;
+
+}
+
+

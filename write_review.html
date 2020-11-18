@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strapt-Product-Details</title>
+    <link rel='stylesheet' href="ratings.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href ="productdetails.css">
+    <!--Bootstrap Implementation-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!--Font Awesome Implementation-->
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <!--JavaScript-->
+    <script src='ratings.js'></script>
+</head>
+<body style='background-color: #F8F8F8'>
+    <div class="subtitle-holder">
+        <div class="previous-holder">
+			<a class="previous" href="ratings.html">&#8249;</a>
+        </div>
+		<div class="logo"></div>
+    </div> 
+        <div class='rate-card'>
+            <div class='card__text'>
+                <h3 class='heading text-center'>Rate your experience</h3>
+                <div class="sub-message">Are you satisfied with the purchase?</div>
+                <div class="rate">
+                    <input type="radio" id="star5" name="rate" value="5" />
+                    <label for="star5" title="text">5 stars</label>
+                    <input type="radio" id="star4" name="rate" value="4" />
+                    <label for="star4" title="text">4 stars</label>
+                    <input type="radio" id="star3" name="rate" value="3" />
+                    <label for="star3" title="text">3 stars</label>
+                    <input type="radio" id="star2" name="rate" value="2" />
+                    <label for="star2" title="text">2 stars</label>
+                    <input type="radio" id="star1" name="rate" value="1" />
+                    <label for="star1" title="text">1 star</label>
+                  </div>
+            </div>
+        </div>
+        <div class='rate-card'>
+            <div class='card__text'>
+                <h3 class='heading text-center'>Tell us what can be improved</h3>
+                <textarea id='customer-review' placeholder="Tell us what can be improved..." required maxlength='250'></textarea>
+            </div>
+            <button id='submit-btn' class='product-one-btn center btn_format' onclick="writeReview()">submit</button>
+        </div>
+    </body>
+</html>

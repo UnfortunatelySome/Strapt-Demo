@@ -1,0 +1,161 @@
+/* CSS Document */
+.report-displays {
+    width: 100%;
+    height: 500px;
+    background-color:#F8F8F8;
+    display: block;
+    align-items: center;
+    padding-right: 5%;
+    padding-left: 5%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.report-title{
+    margin-bottom:5px;
+    margin: 10px;
+    font-size: 18px;
+    font-family: "San Francisco", sans-serif;
+    font-weight: bold;
+    color: #532EBF;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+	margin-top: 5%;
+}
+
+
+.sub-title{
+    margin-bottom:15px;
+    margin-top:15px;
+    font-size:15px;
+    font-family: "San Francisco", sans-serif;
+    font-weight: bold;
+    color: #979797;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+input[type=text], select {
+  padding: 10px;
+  margin: -1px 0 0;
+  height: 200px;
+  line-height: 1.3;
+  width: 100%;
+  display: block;
+  border: 3px solid #ccc;
+  border-radius: 20px;
+  box-sizing: border-box;
+  text-align: left;
+  vertical-alight:baseline;
+  justify-content: space-between;
+  text-rendering: auto;
+  flex-direction: column;
+
+
+}
+
+report-input[type=submit] {
+  width: 80%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+report-input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+textarea{
+	overflow: auto;
+	overflow-wrap: break-word;
+	width: 90%;
+	height: 350px;
+	background-color: white;
+	color: #979797;
+	padding: 14px 14px;
+	margin: 8px 8px;
+	border-color: #D8D8D8;
+	border-width: 2px;
+	border-radius: 20px;
+	cursor: pointer;
+    font-family: "San Francisco", sans-serif;
+
+}
+
+
+#subtitle-card{
+    background-color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    height: 90%;
+    border-radius: 35px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+#textbox-card{
+	background-color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    height: 90%;
+    border-radius: 35px;
+    margin-bottom: 3%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+.submit-btn{
+    margin-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 70px;
+    border-color: #532EBF;
+    color: #532EBF;
+    letter-spacing: 1px;
+    background-color:#FFFFFF;
+    background-position: center;
+    transition-duration: 300ms;
+    border: 0.1 solid #532EBF;
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+	text-transform:uppercase;
+
+}
+
+.submit-btn:hover{
+    margin-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 70px;
+    border-color: #532EBF;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    background-color: #532EBF;
+    transition-duration: 300ms;
+    border: 0.1 solid #532EBF;
+    cursor: pointer;
+	font-size: 14px;
+    width: 60%;
+	text-transform:uppercase;
+
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strapt-File-A-Report</title>
+    <link rel="stylesheet" href="index.css">
+	<link rel="stylesheet" href="file-a-report.css">
+    <!--Bootstrap Implementation-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!--Font Awesome Implementation-->
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="strapt-header">
+            <div class = "logo center"></div>
+    </div>
+    <!--Menu (right)--> 
+    <div class="nav-margin">
+        <div id="card">
+            <ul class="card-list">
+                <a class="menu-list-item" href="products.html">All Products</a>
+                <a class="menu-list-item" href="ratings.html">Ratings</a>
+                <a class="selected-menu" href="report.html">Report</a>
+            </ul>
+        </div>
+    </div>
+    <div class="nav-margin">
+		<div id="subtitle-card">
+            <h1 class="report-title">What's Wrong?</h1>
+            <h1 class="sub-title">Report this dispenser</h1>
+		</div>
+    </div>
+	
+    <div class="report-displays center">
+        <div id = "textbox-card">
+             <textarea class="report-input" style="resize:vertical" placeholder="Please provide details for the report..."></textarea>
+			<form action="report-submitted.html">
+			<input id = "wrapper" class="submit-btn" type="submit" value="Submit">
+		</form>
+        </div>
+
+    </div>
+
+</body>
+</html>

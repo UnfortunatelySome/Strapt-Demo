@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strapt</title>
+    <link rel="stylesheet" href="index.css">
+    <!--Bootstrap Implementation-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!--Font Awesome Implementation-->
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <!--Paho MQTT library-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/paho-mqtt/1.0.1/mqttws31.min.js" type="text/javascript"></script>
+    <script src="products.js" type="text/javascript"></script>
+ </head>
+<body>
+    <div class="strapt-header">
+            <div class = "logo center"></div>
+    </div>
+    <!--Menu (right)-->
+    <div class="nav-margin">
+        <div id="card">
+            <ul class="card-list">
+                <a class="selected-menu" href="products.html">All Products</a>
+                <a class="menu-list-item" href="ratings.html">Ratings</a>
+                <a class="menu-list-item" href="report.html">Report</a>
+            </ul>
+        </div>
+    </div>
+
+    <!-- all product -->
+    <div class="product-one-displays center">
+        <div id = "product-card">
+            <div class="product-one-image"></div>
+            <h1 class="brand-title">LOLA</h1>
+            <h1 class="product-one-title">Cardboard Applicator Tampons</h1>
+            <form action="productdetails.html">
+                <input id = "wrapper" class="product-one-btn" type="submit" value="View Details">
+            </form>
+            <form>
+                <button id = "vendButton" class="product-one-btn" type="button" onclick="vendCallback()">
+                  Vend
+                </button>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
