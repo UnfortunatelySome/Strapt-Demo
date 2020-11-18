@@ -10,7 +10,8 @@ client.onMessageDelivered = onMessageDelivered;
 
 // Attempt to connect to dispenser
 // TODO: set this up to work based on url argument, in order to connect to specific dispenser based on QR code
-client.connect({onSuccess:onConnect});
+client.connect({onSuccess:onConnect,
+               keepAliveInterval:6000});
 
 function onMessageReceived(responseObject) {
     console.log("Message Received");
